@@ -53,7 +53,7 @@ end
 # Regression Models:
 include("inductive_regression.jl")
 include("transductive_regression.jl")
-
+include("C:\\Users\\Pasqu\\Documents\\julia projects\\ConformalPrediction.jl\\.vscode\\inductive_sam.jl")
 # Classification Models
 include("inductive_classification.jl")
 include("transductive_classification.jl")
@@ -107,6 +107,7 @@ const available_models = Dict(
         :inductive => Dict(
             :simple_inductive => SimpleInductiveClassifier,
             :adaptive_inductive => AdaptiveInductiveClassifier,
+            :simple_Bayes => SimpleInductiveBayes,
         ),
     ),
 )
